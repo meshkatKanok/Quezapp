@@ -1,20 +1,36 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link, NavLink } from 'react-router-dom';
+import './Header.css'
 
 const Header = () => {
     return (
         <div>
             {/* -------------------- */}
-            <Navbar bg="dark" variant="dark">
-                <Container>
-                    <Navbar.Brand to="#home">Navbar</Navbar.Brand>
-                    <Nav>
-                        <Nav.Link to="#home">Home</Nav.Link>
-                        <Nav.Link to="#features">Features</Nav.Link>
-                        <Nav.Link to="#pricing">Pricing</Nav.Link>
-                    </Nav>
-                </Container>
-            </Navbar>
+         
+            <nav  className="navbar navbar-expand-lg bg-dark">
+  <div  className="container-fluid new-side">
+    <Link  className="navbar-brand fw-bold brand-color" to="#">POPULAR QUIZ</Link>
+    <button  className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span  className="navbar-toggler-icon"></span>
+    </button>
+    <div  className="collapse navbar-collapse" id="navbarNav">
+      <ul  className="navbar-nav ms-auto">
+        <li  className="nav-item">
+         <Link  className="nav-link text-white" aria-current="page" to="/home">Home</Link>
+        </li>
+        <li  className="nav-item">
+         <Link  className="nav-link text-white" to="/Topics">Topics</Link>
+        </li>
+        <li  className="nav-item">
+         <Link  className="nav-link text-white" to="/Statictis">Statictis</Link>
+        </li>
+        <li  className="nav-item">
+         <Link  className="nav-link text-white" to="/blog">Blog</Link>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
             {/* ---------------- */}
 
         </div>

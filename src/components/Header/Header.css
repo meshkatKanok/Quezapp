@@ -1,6 +1,15 @@
-.Quiz-nav{
-    box-shadow: 2px 3px 4px gray;
+ 
+.new-side{
+    padding:0% 5% !important;
 }
-.nav-Menu{
-    padding:0% 5%;
-}
+.nav-bar li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+ }
+ .brand-color{
+    color: tomato !important;
+ }
+ .bg-gray{
+    background:gray;
+ }

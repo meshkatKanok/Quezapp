@@ -1,0 +1,12 @@
+.cart{
+   width: 18rem;
+   
+}
+.logo{
+    background:gray;
+    border-radius: 5px;
+}
+.cart h5{
+    color: tomato;
+    font-weight: bolder;
+}

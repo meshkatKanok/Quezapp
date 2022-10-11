@@ -1,0 +1,13 @@
+.Allquize-data{
+    display: grid !important;
+    grid-template-columns: repeat(4,1fr) !important;
+    gap:20px;
+    padding: 0% 5%;
+    
+}
+.img{
+    height:150px !important;
+}
+.hrader-cart{
+    border: none;
+}
