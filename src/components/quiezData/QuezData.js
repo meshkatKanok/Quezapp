@@ -28,12 +28,12 @@ const QuezData = ({ quez }) => {
     }
     return (
         <div>
-            <div className="card quize-data m-auto mt-5 bg-black text-warning">
+            <div className="card quize-data m-auto mt-5 bg-black text-warning col-sm-12">
                 <div className='d-flex align-items-center justify-content-between'>
                     <p>{newQuestion}</p>
                     <EyeIcon onClick={() => correctAns(correctAnswer)} className="text-blue-500 eye-icone" />
                 </div>
-                <div className="card-body text-primary">
+                <div className="card-body text-primary col-md-12">
                     {
                         options.map((option, index) => <Quizeotion quez={quez} key={index} handleClick={handleClick} option={option}></Quizeotion>)
                     }
