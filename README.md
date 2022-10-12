@@ -2,7 +2,7 @@ Code Live Link : https://preeminent-cascaron-da41e8.netlify.app/
 
 Code Link : https://github.com/programming-hero-web-course2/b6-quiz-crackerz-meshkatKanok
 
-its a Quize website,,Best peartice in webdevelopment web site
+its a Quize website,,Best peartice in webdevelopment quiz
 
 
 
