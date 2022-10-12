@@ -6,8 +6,11 @@
     
 }
 .img{
-    height:150px !important;
+    height:50%!important;
+    width:50%;
 }
 .hrader-cart{
     border: none;
+    padding: 0% 5%;
+
 }

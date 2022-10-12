@@ -8,7 +8,7 @@ const Home = () => {
     const quizData=useLoaderData();
     // console.log(quizData.data)
     const {data}=quizData
-    console.log(data);
+  
  
     return (
         <div>
@@ -16,12 +16,13 @@ const Home = () => {
             
 
             {/*---------------------------- */}
-            <div class="card hrader-cart">
- <img src={Companyimg} class="card-img-top img" alt="" />
-  <div class="card-body">
-    <h5 class="card-title text-center">All Popular Web Development Quize</h5>
-    {/* <h1 className='text-center mt-5'>All Popular Web Development Quize</h1> */}
-    <p className='text-center w-75 m-auto'>This quiz covers all of the topics learnt in the "Introduction to Web Development" e-learning environment. There are no trick questions and all of the answers have been given at some point in the online sessions </p>
+            <div className="card hrader-cart ">
+  <div className="card-body d-flex align-items-center">
+  <img src={Companyimg} className="card-img-top img" alt="" />
+   <div>
+   <h5 className=" ">All Popular Web Development Quize</h5>
+    <p className=''>This quiz covers all of the topics learnt in the "Introduction to Web Development" e-learning environment. There are no trick questions and all of the answers have been given at some point in the online sessions </p>
+   </div>
    
   </div>
 </div>

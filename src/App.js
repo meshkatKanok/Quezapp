@@ -5,7 +5,8 @@ import Main from './components/layout/Main';
 import Home from './components/Home/Home';
 import Statictis from './components/Statitics/Statictis';
 import Blog from './components/Blog/Blog';
-import Quiz from './components/Quiz/Quiz.jsx'
+import Quiz from './components/Quiz/Quiz.jsx';
+
 
 function App() {
   const router=createBrowserRouter([
@@ -18,6 +19,9 @@ children:[
   {path:'Statictis',element:<Statictis></Statictis>},
   {path:'/blog',element:<Blog></Blog>},
   {path:'/quize/:quizID',
+  loader:({params})=>{
+  return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizID}`)
+  },
   element:<Quiz></Quiz>
 }
 ]

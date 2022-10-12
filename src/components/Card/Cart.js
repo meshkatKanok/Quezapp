@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 import './Cart.css'
 
 const Cart = ({data}) => {
-    console.log(data)
     const{id,name,logo}=data
     return (
         <div>
-            <div  className="card cart mt-5 mb-5">
+            <div  className="card cart  mb-5">
                <img  className="card-img-top logo" src={logo} alt="" />
                     <div  className="card-body d-flex justify-content-between">
                         <h5  className="card-title">{name}</h5>
