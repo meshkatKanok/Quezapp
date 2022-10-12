@@ -1,3 +1,12 @@
+Code Live Link : https://preeminent-cascaron-da41e8.netlify.app/
+
+Code Link : https://github.com/programming-hero-web-course2/b6-quiz-crackerz-meshkatKanok
+
+its a Quize website,,Best peartice in webdevelopment web site
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +77,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
