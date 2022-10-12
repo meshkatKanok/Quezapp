@@ -6,6 +6,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import { BeakerIcon, EyeIcon } from '@heroicons/react/24/solid'
 const QuezData = ({ quez }) => {
     const { question, options, correctAnswer } = quez
+    const newQuestion=question.replace("<p>","")
+    .replace('</p>','')
     const handleClick = (option) => {
         if (option === `${correctAnswer}`) {
             toast(`Correct Answer`, {
@@ -28,7 +30,7 @@ const QuezData = ({ quez }) => {
         <div>
             <div className="card quize-data m-auto mt-5 bg-black text-warning">
                 <div className='d-flex align-items-center justify-content-between'>
-                    <p>{question}</p>
+                    <p>{newQuestion}</p>
                     <EyeIcon onClick={() => correctAns(correctAnswer)} className="text-blue-500 eye-icone" />
                 </div>
                 <div className="card-body text-primary">

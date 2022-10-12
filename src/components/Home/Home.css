@@ -1,7 +1,4 @@
 .Allquize-data{
-    display: grid !important;
-    grid-template-columns: repeat(4,1fr) !important;
-    gap:20px;
     padding: 0% 5%;
     
 }
@@ -13,6 +10,10 @@
     padding: 0% 5%;
 
 }
- @media screen {
-    
- }
+@media screen and (width:576px) {
+  .Allquize-data{
+    width: 100%;
+    padding:0%;
+  }
+}
+ 

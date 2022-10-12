@@ -10,3 +10,8 @@
     color: tomato;
     font-weight: bolder;
 }
+@media screen and (width:576px) {
+    .cart{
+        width: 100% !important;
+    }
+}

@@ -29,7 +29,7 @@ const Home = () => {
         </div>
       </div>
       {/*------------------------------ */}
-      <div className='Allquize-data'>
+      <div className='Allquize-data col-sm-12 col-md-3 d-md-flex gap-4'>
         {
           data.map(data => <Cart key={data.id} data={data}></Cart>)
         }
@@ -39,4 +39,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home
