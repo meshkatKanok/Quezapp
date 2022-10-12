@@ -19,7 +19,6 @@ children:[
   {path:'/home',
   loader:()=>fetch('https://openapi.programming-hero.com/api/quiz')
   ,element:<Home></Home>},
-  // {path:'/Topics',element:<Topics></Topics>},
   {path:'Statictis',
   loader:()=>{
     return fetch('https://openapi.programming-hero.com/api/quiz') 
