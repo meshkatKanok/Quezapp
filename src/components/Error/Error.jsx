@@ -4,7 +4,7 @@ const Error = () => {
         <div>
             <div className="card bg-gray w-50 m-auto mt-5 p-5cle">
                     <div className="card-body text-center text-white">
-                        <h1>404</h1>
+                        {/* <h1>404</h1> */}
                         <p>Page NoT Found</p>
                         <p>We are sorry the page you requested could not be found please go back to the homepage</p>
                        
